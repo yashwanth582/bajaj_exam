@@ -28,7 +28,7 @@ app.post('/bfhl', (req, res) => {
   
     const response = {
       is_success: true,
-      user_id: `john_doe_${userData.dob}`,
+      user_id: `yashwanthks${userData.dob}`,
       email: userData.email,
       roll_number: userData.roll_number,
       numbers: data.filter((char) => /^\d$/.test(char)),
